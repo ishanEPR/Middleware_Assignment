@@ -43,3 +43,34 @@ Select a test case and then run using the IDE.(I suggest IntelliJ IDE)
 
 
 ## 3. How to run a CURL/WGET command to test the APIs once deployed
+
+This is the instruction to test the APIs using command line.
+
+Open the cmd.
+* get the pet details.
+curl http://localhost:8080/data/pet/getDetails
+
+
+* add a pet
+curl -d '{"petName":"Pettappu","petAge":2,"petType":"Parrot","petColor":"Green"}' -H 'Content-Type: application/json' http://localhost:8080/data/pet
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
