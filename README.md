@@ -32,13 +32,14 @@ Download mysql docker image by using:
 After that, then set environment variable for mysql container. Run the mysql image.
 
 ### step 3
-I have two docker images.Then created docker-compose.yml.(docker compose file I used for parallel run the these docker images.)
-
+I have two docker images.Then I created docker-compose.yml.
+( I used docker compose file for parallely run these docker images.)
   
 
-
-
-
-
 ## 2. How to run test suite
+Test suites are written using JUnit.
+Firstly run the project.
+Select a test case and then run using the IDE.(I suggest IntelliJ IDE)
+
+
 ## 3. How to run a CURL/WGET command to test the APIs once deployed
